@@ -1,0 +1,156 @@
+/* colors #15202B #192734 #22303C #8899A6 */
+
+body {
+  background-color: #15202b !important;
+  color: #8899a6 !important;
+}
+
+div.whitebox {
+  background-color: #15202b !important;
+}
+
+.search input {
+  background: #15202b !important;
+}
+.search button,
+.search input,
+.search select {
+  color: #8899a6 !important;
+  border: 1px solid #3a3b3c !important;
+}
+
+.search button,
+.search select {
+  cursor: pointer;
+  background-color: #3a3b3c !important;
+}
+
+.box-wrap > div {
+  background-color: #22303c !important;
+}
+
+.box-wrap > div p a {
+  color: #8899a6 !important;
+}
+
+.box-wrap > div .wiki-header a {
+  color: #8899a6 !important;
+}
+
+.wrap .main-content-column {
+  background-color: #15202b !important;
+}
+
+a:link,
+a:visited {
+  color: #6b91e9 !important;
+}
+
+.footer {
+  background-color: #22303c !important;
+}
+
+.btn {
+  background-color: rgba(0, 0, 255, 0) !important;
+  border: 1px solid #6476ae !important;
+}
+
+.btn btn-primary portal-pills {
+  background-color: red !important;
+}
+
+.mw-parser-output .portal-pills a,
+.mw-parser-output .portal-pills a.external,
+.mw-parser-output .portal-pills a.new {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.mw-parser-output .portal-pills a:hover,
+.mw-parser-output .portal-pills a.external:hover,
+.mw-parser-output .portal-pills a.new:hover {
+  background-color: #22303c !important;
+}
+
+.wiki-backgroundcolor-light,
+.wiki-backgroundcolor-light-hover:hover,
+.bgc-light,
+.bgc-light-hover:hover {
+  background-color: #192734 !important;
+}
+
+.networknotice.networknotice-default {
+  color: #8899a6 !important;
+}
+
+.wiki-bordercolor-light,
+.bdc-light {
+  border-color: #6476ae !important;
+}
+
+.wiki-color-dark,
+.wiki-color-dark-hover:hover,
+.c-dark {
+  color: #8899a6 !important;
+}
+
+table.wikitable {
+  color: #8899a6 !important;
+  background-color: #192734 !important;
+}
+
+.wikitable > tr > th,
+.wikitable > thead > tr > th,
+.wikitable > tbody > tr > th,
+.wikitable > tr > td,
+.wikitable > thead > tr > td,
+.wikitable > tbody > tr > td {
+  background-color: #192734 !important;
+}
+
+.tournaments-list-heading {
+  background-color: #15202b !important;
+}
+
+.wiki-nav {
+  background-color: #22303c !important;
+}
+
+.container-custom {
+  background-color: #22303c !important;
+}
+
+.footer > * {
+  background: #22303c !important;
+  color: #8899a6 !important;
+}
+
+.footer-logo-big {
+  background-image: url("https://liquipedia.net/images/liquipedia_logo.png") !important;
+}
+
+.catlinks {
+  background: #15202b !important;
+}
+
+.navbar {
+  background-color: #22303c !important;
+}
+#main-nav {
+  background-color: #22303c !important;
+}
+
+.search-input.form-control {
+  background-color: #15202b !important;
+}
+
+.btn-light {
+  color: #8899a6 !important;
+}
+
+.dropdown-menu {
+  background-color: #15202b !important;
+}
+
+.divRow mainpage-transfer-to-team {
+  background-color: red !important;
+}
