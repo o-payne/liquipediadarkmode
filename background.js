@@ -2,7 +2,7 @@ console = chrome.extension.getBackgroundPage().console;
 
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  if (changeInfo.status === 'complete') {
+  if (changeInfo.status === 'loading') {
     chrome.storage.sync.get(['dark'], function (result) {
       if (result.dark === true) {
         chrome.tabs.insertCSS(null, { file: "dark_mode.css" });
