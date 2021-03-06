@@ -191,7 +191,10 @@ div.divRow.mainpage-transfer-from-team {
 
 h1,
 h2 {
-  border-bottom: 2px solid #6476ae !important;
+  color: #5875cc !important;
+}
+
+h3 {
   color: #5875cc !important;
 }
 
@@ -266,4 +269,12 @@ pre,
 
 .ext-wikimenu .ext-wikimenu-tabs .ext-wikimenu-tab {
   background-color: #22303c !important;
+}
+
+div.top {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 22, 44, 1) 0%,
+    rgba(0, 22, 44, 0.8) 100%
+  ) !important;
 }
