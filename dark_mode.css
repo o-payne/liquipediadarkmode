@@ -151,6 +151,119 @@ table.wikitable {
   background-color: #15202b !important;
 }
 
-.divRow mainpage-transfer-to-team {
-  background-color: red !important;
+/* neutral trades */
+
+.divRow {
+  background-color: #2a4055 !important;
+  color: #8899a6 !important;
+}
+
+div.divRow.mainpage-transfer-to-team {
+  background-color: #214633 !important;
+}
+
+div.divRow.mainpage-transfer-from-team {
+  background-color: #462127 !important;
+}
+
+.nav-tabs > li {
+  background-color: #22303c !important;
+  margin-right: 2px;
+  margin-bottom: 0;
+  margin-top: 2px;
+  border-left: 2px solid #6476ae !important;
+  border-top: 2px solid #6476ae !important;
+  border-right: 2px solid #6476ae !important;
+  height: 34px;
+}
+
+.tabs-static .nav-tabs > li > a.mw-selflink.selflink {
+  background: #192734 !important;
+  color: #8899a6 !important;
+}
+
+.tabs-static .nav-tabs > li > a.mw-selflink.selflink:hover {
+  color: #6476ae !important;
+}
+.nav-tabs {
+  border-bottom: 2px solid #6476ae !important;
+}
+
+h1,
+h2 {
+  border-bottom: 2px solid #6476ae !important;
+  color: #5875cc !important;
+}
+
+.divTable {
+  background-color: #15202b !important;
+}
+
+.divTable > .divHeaderRow,
+.divTable.table-striped > .divRow:nth-child(2n + 1) {
+  background-color: #15202b !important;
+}
+
+.main-content-column button:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="submit"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="button"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="reset"]:not(.oo-ui-inputWidget-input) {
+  background-color: #192734 !important;
+  border-color: #6476ae !important;
+  color: #8899a6 !important;
+}
+
+.sidebar-toc ul li > a > * {
+  color: #6476ae !important;
+}
+
+tr {
+  background-color: #192734 !important;
+  color: #8899a6 !important;
+}
+
+.main-content-column select:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="date"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="datetime"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="datetime-local"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="email"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="month"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="number"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="password"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="range"]:not(.oo-ui-inputWidget-input),
+.main-content-column
+  input[type="search"]:not(.search-input):not(.oo-ui-inputWidget-input),
+.main-content-column input[type="tel"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="text"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="time"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="url"]:not(.oo-ui-inputWidget-input),
+.main-content-column input[type="week"]:not(.oo-ui-inputWidget-input),
+.main-content-column input:not([type]):not(.oo-ui-inputWidget-input) {
+  color: #8899a6 !important;
+  background-color: #192734 !important;
+}
+
+pre {
+  color: #8899a6 !important;
+}
+
+pre,
+.mw-code {
+  background-color: #192734 !important;
+}
+
+#pagehistory li.selected {
+  background-color: #f8f9fa;
+}
+
+.ext-wikimenu {
+  background-image: none !important;
+}
+
+.ext-wikimenu-content > a {
+  background-color: #22303c !important;
+}
+
+.ext-wikimenu .ext-wikimenu-tabs .ext-wikimenu-tab {
+  background-color: #22303c !important;
 }

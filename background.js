@@ -2,9 +2,21 @@ console = chrome.extension.getBackgroundPage().console;
 
 //set initial value, without this code no workie 
 chrome.storage.sync.set({ 'dark': false }, function () {
-
-  console.log('Initial value set ');
 });
+
+
+function createIDs() {
+
+  chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+    if (changeInfo.status === 'complete') {
+      var transferTo = document.getElementsByClassName('divRow mainpage-transfer-to-team');
+      for (var i = 0; i < transferTo.length; i++) {
+        transferTo[i].id = 'transferTo';
+      }
+
+    }
+  })
+}
 
 
 
@@ -54,3 +66,4 @@ chrome.browserAction.onClicked.addListener(function (tab) {
     }
   })
 })
+
