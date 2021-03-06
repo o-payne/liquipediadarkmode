@@ -5,27 +5,12 @@ chrome.storage.sync.set({ 'dark': false }, function () {
 });
 
 
-function createIDs() {
-
-  chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-    if (changeInfo.status === 'complete') {
-      var transferTo = document.getElementsByClassName('divRow mainpage-transfer-to-team');
-      for (var i = 0; i < transferTo.length; i++) {
-        transferTo[i].id = 'transferTo';
-      }
-
-    }
-  })
-}
-
-
-
 //add or remove css based on if dark is true or false everytime the browser is refreshed
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   if (changeInfo.status === 'loading') {
     chrome.storage.sync.get(['dark'], function (result) {
       if (result.dark === true) {
-        chrome.tabs.insertCSS(null, { file: "dark_mode.css" });
+        chrome.tabs.insertCSS(null, { runAt: "document_start", file: "dark_mode.css" });
         chrome.storage.sync.set({ 'dark': true }, function () {
           // Notify that we saved.
           console.log('Dark enabled ' + result.dark);

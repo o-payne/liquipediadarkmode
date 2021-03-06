@@ -178,15 +178,30 @@ div.divRow.mainpage-transfer-from-team {
 }
 
 .tabs-static .nav-tabs > li > a.mw-selflink.selflink {
-  background: #192734 !important;
-  color: #8899a6 !important;
+  background: #6476ae !important;
+  color: #15202b !important;
 }
 
 .tabs-static .nav-tabs > li > a.mw-selflink.selflink:hover {
   color: #6476ae !important;
+  background-color: #15202b !important;
 }
 .nav-tabs {
   border-bottom: 2px solid #6476ae !important;
+}
+
+.nav-tabs > li > a:not(.new):hover {
+  background: #6476ae !important;
+  color: #15202b !important;
+}
+
+div.tabs-dynamic > ul.nav-tabs > li > a,
+div.tabs-static > ul.nav-tabs > li > a {
+  background: #15202b !important;
+}
+
+.breadcrumb {
+  background-color: #15202b !important;
 }
 
 h1,
@@ -261,14 +276,15 @@ pre,
 
 .ext-wikimenu {
   background-image: none !important;
+  background-color: #22313c !important;
 }
 
 .ext-wikimenu-content > a {
-  background-color: #22303c !important;
+  background-color: #192734 !important;
 }
 
 .ext-wikimenu .ext-wikimenu-tabs .ext-wikimenu-tab {
-  background-color: #22303c !important;
+  background-color: #192734 !important;
 }
 
 div.top {
