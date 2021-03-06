@@ -11,7 +11,6 @@
     "128": "icons/logo-medium128.png"
   },
   "permissions": [
-    "activeTab",
     "tabs",
     "https://www.liquipedia.net/*",
     "https://liquipedia.net/*",

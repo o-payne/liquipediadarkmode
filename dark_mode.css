@@ -207,6 +207,7 @@ div.tabs-static > ul.nav-tabs > li > a {
 h1,
 h2 {
   color: #5875cc !important;
+  border-bottom: 2px solid #5875cc !important;
 }
 
 h3 {
