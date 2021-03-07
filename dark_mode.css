@@ -130,6 +130,20 @@ table.wikitable {
 
 .catlinks {
   background: #15202b !important;
+  border-color: #5875cc !important;
+}
+
+.nav-tabs > li > span > span > a.mw-selflink.selflink {
+  background: rgb(100, 118, 174) !important;
+  color: #15202b !important;
+}
+
+.nav-tabs > li:hover > a,
+.nav-tabs > li:hover > span,
+.nav-tabs > li:hover > span > span,
+.nav-tabs > li > a:focus {
+  background: rgb(100, 118, 174) !important;
+  color: #15202b !important;
 }
 
 .navbar {
@@ -214,8 +228,24 @@ h3 {
   color: #5875cc !important;
 }
 
+tr + tr > .navbox-abovebelow,
+tr + tr > .navbox-group,
+tr + tr > .navbox-image,
+tr + tr > .navbox-list {
+  border-top: 2px solid #5875cc !important;
+}
+
+.navbox-even {
+  background-color: #192734 !important;
+}
+
 .divTable {
   background-color: #15202b !important;
+}
+
+table.wikitable > tr > th,
+table.wikitable > * > tr > th {
+  background-color: #192734 !important;
 }
 
 .divTable > .divHeaderRow,
