@@ -327,15 +327,15 @@ pre,
 
 .ext-wikimenu {
   background-image: none !important;
-  background-color: #22313c !important;
+  background-color: #15202b !important;
 }
 
 .ext-wikimenu-content > a {
-  background-color: #192734 !important;
+  background-color: #22313c !important;
 }
 
 .ext-wikimenu .ext-wikimenu-tabs .ext-wikimenu-tab {
-  background-color: #192734 !important;
+  background-color: #22313c !important;
 }
 
 div.top {
@@ -360,5 +360,14 @@ div.top {
 }
 
 .fo-nttax-infobox > div:nth-child(2n) {
+  background-color: #22313c !important;
+}
+
+#filetoc {
+  background-color: #22313c !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
   background-color: #22313c !important;
 }
