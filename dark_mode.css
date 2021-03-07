@@ -146,6 +146,26 @@ table.wikitable {
   color: #15202b !important;
 }
 
+.fo-nttax-infobox > div:nth-child(2n + 1) {
+  background-color: #22303c !important;
+}
+
+.fo-nttax-infobox > div > div.infobox-cell-2 {
+  background: #22303c !important;
+}
+
+.fo-nttax-infobox > div > div.infobox-description {
+  background-color: #22303c !important;
+}
+
+.fo-nttax-infobox > div > div.infobox-center {
+  background: #22303c !important;
+}
+
+.fo-nttax-infobox > div > div.infobox-image:not(.infobox-fixed-size-image) img {
+  background-color: #22303c !important;
+}
+
 .navbar {
   background-color: #22303c !important;
 }
@@ -324,4 +344,13 @@ div.top {
     rgba(0, 22, 44, 1) 0%,
     rgba(0, 22, 44, 0.8) 100%
   ) !important;
+}
+
+.nav-tabs > li.active {
+  background-color: #6476ae !important;
+}
+
+div.tabs-dynamic > ul.nav-tabs > li:not(.active),
+div.tabs-static > ul.nav-tabs > li:not(.active):hover {
+  background-color: #6476ae !important;
 }
