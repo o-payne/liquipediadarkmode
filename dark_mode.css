@@ -358,3 +358,7 @@ div.top {
   background-color: #6476ae !important;
   color: #15202b !important;
 }
+
+.fo-nttax-infobox > div:nth-child(2n) {
+  background-color: #22313c !important;
+}
