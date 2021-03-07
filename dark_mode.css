@@ -350,7 +350,11 @@ div.top {
   background-color: #6476ae !important;
 }
 
-div.tabs-dynamic > ul.nav-tabs > li:not(.active),
-div.tabs-static > ul.nav-tabs > li:not(.active):hover {
+.nav-tabs > li.active:hover > span > span > a {
   background-color: #6476ae !important;
+}
+
+.nav-tabs > li:hover > span > span > a:not(.new) {
+  background-color: #6476ae !important;
+  color: #15202b !important;
 }
